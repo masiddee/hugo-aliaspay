@@ -1,4 +1,4 @@
-baseURL: http://example.org/
+baseURL: https://still-retreat-22100.herokuapp.com/
 languageCode: en-us
 title: "Alias Pay: 2-Factor Authentication for your Credit Card"
 theme: hugo-fresh
