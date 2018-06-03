@@ -1,0 +1,140 @@
+baseURL: http://example.org/
+languageCode: en-us
+title: "Alias Pay: 2-Factor Authentication for your Credit Card"
+theme: hugo-fresh
+
+params:
+  hero:
+    tagline: Pay it Safe
+    subTagline: With Alias Pay’s secure 2-Factor Authentication for your credit cards, shopping online has never been safer.
+    buttonText: Join Our Beta Today
+    image: ap/devices.png
+    bottomIcons:
+    - logos/clients/aliaspay-gray.svg
+    - logos/clients/plus-icon-gray.svg
+    - logos/clients/stripe-gray.svg
+    - logos/clients/plus-icon-gray.svg
+    - logos/clients/woocommerce-gray.svg
+  navbar:
+    buttonText: Join Beta
+    logo:
+      src: logos/aliaspay-logo_tagline.svg
+      alt: Alias Pay Logo
+    links:
+    - text: Features
+      url: features
+    - text: Pricing
+      url: pricing
+    - text: Merchants
+      url: merchants
+  features:
+    tagline: Protect your purchases
+    subTagline: Alias Pay is the most secure digital wallet on the market
+    panels:
+    - title: Device-level Storage
+      image: ap/person1.png
+      text: Your card is encrypted and stays on your device
+      button:
+        text: Join Beta
+        url: /
+      delay: 1
+    - title: Virtual Card Sharing
+      image: ap/person2.png
+      text: Share access to your card with friends and family
+      button:
+        text: Join Beta
+        url: /
+      delay: 2
+    - title: Real-time Control
+      image: ap/person3.png
+      text: You confirm every purchase, every time.
+      button:
+        text: Join Beta
+        url: /
+      delay: 3
+  sellingPoints:
+    tagline: Take back control
+    subTagline: Never share your credit card online again.
+    mainImage: aliaspay-group.svg
+    points:
+    - title: Unlimited Alias Cards™
+      description: Bank cards, debit cards, credit cards -- you can add them all to Alias Pay's secure mobile digital wallet. We'll create a new virtual Alias Card™ for each one that you can then use for online shopping.
+      icon: fa-credit-card
+    - title: Unlimited Sharing with friends & family
+      description: Share your virtual Alias Cards™ with any other Alias Pay users, and they will also be able to make secure purchases. Don't worry, you will still need to approve every transaction. 
+      icon: fa-users
+    - title: Real-time Balance info* 
+      description: See your credit card/bank account balance in real-time, so never worry about over-drafts again!
+      icon: fa-bolt
+    - title: Up to 60 days of transaction history 
+      description: Not sure who made a purchase last week? Simply scroll through 2 months worth of transaction history to see exactly who bought what, and for how much.
+      icon: fa-calendar-check
+  pricing:
+    image: illustrations/mockups/app-mockup.png
+    tagline: Simple, worry-free pricing
+    subTagline: No hidden fees, ever. And only pay for what you use.
+    buttonText: Get Started with Beta
+    planHeader: Pay as you go
+    planPriceAmount: "1.35"
+    planItems:
+      - description: 100% Secure 
+      - description: See every transaction, every time
+      - description: Approve/deny in real-time
+      - description: Share with family & friends
+  merchants:
+    image: illustrations/mockups/app-mockup.png
+    tagline: One Platform to rule them All
+    subTagline: Lorem ipsum sit dolor amet is a dummy text used by typography industry
+    buttonText: Get Started
+  platform:
+    image: illustrations/mockups/app-mockup.png
+    tagline: One Platform to rule them All
+    subTagline: Lorem ipsum sit dolor amet is a dummy text used by typography industry
+    buttonText: Get Started
+  clients:
+    tagline: Our Clients love us!
+    subTagline: Lorem ipsum sit dolor amet is a dummy text used by typography industry
+    clientExamples:
+    - name: Irma Walters
+      position: Accountant
+      quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
+      image: 1.png
+    - name: John Bradley
+      position: Financial Analyst
+      quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
+      image: 2.png
+    - name: Gary Blackman
+      position: HR Manager
+      quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
+      image: 3.png
+  contact:
+    tagline: Drop us a line or two!
+  footer:
+    image: aliaspay-logo-white_tagline.svg
+    columns:
+    - title: Product
+      links:
+      - name: Features
+        url: "#"
+      - name: Pricing
+        url: "#"
+      - name: Merchants
+        url: "#"
+    - title: Business
+      links:
+      - name: About
+        url: "#"
+      - name: Privacy Policy
+        url: "#"
+      - name: Contact Us
+        url: "#"
+      - name: FAQs
+        url: "#"
+    followUs:
+    - icon: fa-twitter-square
+      url: "https://twitter.com/aliaspayio"
+    - icon: fa-facebook-square
+      url: "https://www.facebook.com/aliaspayio"
+    - icon: fa-linkedin
+      url: "https://www.linkedin.com/company/alias-pay/"
+
