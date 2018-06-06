@@ -10,11 +10,11 @@ params:
     buttonText: Join Our Beta Today
     image: ap/devices.png
     bottomIcons:
-    - logos/clients/aliaspay-gray.svg
-    - logos/clients/plus-icon-gray.svg
-    - logos/clients/stripe-gray.svg
-    - logos/clients/plus-icon-gray.svg
-    - logos/clients/woocommerce-gray.svg
+    - logos/clients/aliaspay-white.svg
+    - logos/clients/plus-icon-white.svg
+    - logos/clients/stripe-white.svg
+    - logos/clients/plus-icon-white.svg
+    - logos/clients/woocommerce-white.svg
   navbar:
     buttonText: Join Beta
     logo:
@@ -82,33 +82,20 @@ params:
       - description: Approve/deny in real-time
       - description: Share with family & friends
   merchants:
-    image: illustrations/mockups/app-mockup.png
-    tagline: One Platform to rule them All
-    subTagline: Lorem ipsum sit dolor amet is a dummy text used by typography industry
-    buttonText: Get Started
-  platform:
-    image: illustrations/mockups/app-mockup.png
-    tagline: One Platform to rule them All
-    subTagline: Lorem ipsum sit dolor amet is a dummy text used by typography industry
-    buttonText: Get Started
-  clients:
-    tagline: Our Clients love us!
-    subTagline: Lorem ipsum sit dolor amet is a dummy text used by typography industry
-    clientExamples:
-    - name: Irma Walters
-      position: Accountant
-      quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
-      image: 1.png
-    - name: John Bradley
-      position: Financial Analyst
-      quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
-      image: 2.png
-    - name: Gary Blackman
-      position: HR Manager
-      quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
-      image: 3.png
-  contact:
-    tagline: Drop us a line or two!
+    image: illustrations/aliaspay-checkout.svg
+    tagline: Secure your Store
+    subTagline: Plug in to WooCommerce's most secure checkout option, and give your customers peace of mind. Its FREE for merchants, and adds an extra layer of security for your shop.
+    buttonText: Request Early Access to our WooCommerce Plugin
+  usersModal:
+    title: Sign up for Beta
+    tagline1: Alias Pay is currently running a private beta release of our secure mobile wallet app, and we'd love your feedback!
+    tagline2: Sign up below to be added to our list of beta-testers, and get early access to our mobile apps on Apple and Android.
+    buttonText: Sign Up Now
+  merchantsModal:
+    title: Request Early Access to WooCommerce Plugin
+    tagline1: Connecting your WooCommerce store with Alias Pay is as easy as 1-2-3. And its FREE forever.
+    tagline2: Submit the form below with your information to get early access to our secure WooCommerce plugin.
+    buttonText: Submit Merchant Request
   footer:
     image: aliaspay-logo-white_tagline.svg
     columns:
