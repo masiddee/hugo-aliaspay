@@ -13,7 +13,7 @@
 <link rel="stylesheet" href="https://still-retreat-22100.herokuapp.com/css/icons.css" />
 <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
-<link rel="stylesheet" href="https://still-retreat-22100.herokuapp.com/css/core-3cdd1912.css" />
+<link rel="stylesheet" href="https://still-retreat-22100.herokuapp.com/css/core-4afd35e5.css" />
 
 
   </head>
@@ -326,7 +326,7 @@
         <br>
         <p>Sign up below to be added to our list of beta-testers, and get early access to our mobile apps on Apple and Android.</p>
 
-        <form action="" id="subscribe-form" data-parsley-validate>
+        <form action="" id="signup-user-form" data-parsley-validate>
           
           <div class="field is-horizontal">
             <div class="field-label is-normal">
@@ -335,7 +335,7 @@
             <div class="field-body">
               <div class="field">
                 <p class="control is-expanded has-icons-left">
-                  <input class="input" type="email" placeholder="Email" value id="subscriber">
+                  <input class="input" type="email" placeholder="Email" value id="user" required="">
                   <span class="icon is-small is-left">
                     <i class="fas fa-envelope"></i>
                   </span>
@@ -362,7 +362,7 @@
     <div class="modal-background"></div>
     <div class="modal-card">
       <header class="modal-card-head is-theme-primary">
-        <p class="modal-card-title">Request Early Access to WooCommerce Plugin</p>
+        <p class="modal-card-title">Request Early Access</p>
         <button class="modal-merchant-close delete" aria-label="close"></button>
       </header>
       <section class="modal-card-body">
@@ -371,7 +371,7 @@
         <br>
         <p>Submit the form below with your information to get early access to our secure WooCommerce plugin.</p>
 
-        <form action="" id="merchant-form" data-parsley-validate>
+        <form action="" id="signup-merchant-form" data-parsley-validate>
           <div class="field is-horizontal">
             <div class="field-label is-normal">
               <label class="label">Name</label>
@@ -379,7 +379,7 @@
             <div class="field-body">
               <div class="field">
                 <p class="control is-expanded has-icons-left">
-                  <input class="input" type="text" placeholder="First">
+                  <input class="input" type="text" placeholder="First" name="fname" required="">
                   <span class="icon is-small is-left">
                     <i class="fas fa-user"></i>
                   </span>
@@ -387,7 +387,7 @@
               </div>
               <div class="field">
                 <p class="control is-expanded has-icons-left">
-                  <input class="input" type="text" placeholder="Last">
+                  <input class="input" type="text" placeholder="Last" name="lname" required="">
                   <span class="icon is-small is-left">
                     <i class="fas fa-user"></i>
                   </span>
@@ -403,7 +403,7 @@
             <div class="field-body">
               <div class="field">
                 <p class="control is-expanded has-icons-left">
-                  <input class="input" type="email" placeholder="Email" value id="subscriber">
+                  <input class="input" type="email" placeholder="Email" name="email" required="">
                   <span class="icon is-small is-left">
                     <i class="fas fa-envelope"></i>
                   </span>
@@ -419,7 +419,7 @@
             <div class="field-body">
               <div class="field">
                 <p class="control is-expanded has-icons-left">
-                  <input class="input" type="text" placeholder="Your company website" value>
+                  <input class="input" type="text" placeholder="Your company website" name="website" required="">
                   <span class="icon is-small is-left">
                     <i class="fas fa-globe"></i>
                   </span>
@@ -436,13 +436,13 @@
               <div class="field">
                 <div class="control">
                   <div class="select">
-                    <select>
-                      <option>Select amount...</option>
-                      <option>less than 1,000</option>
-                      <option>1,000 - 19,999</option>
-                      <option>20,000 - 49,999</option>
-                      <option>50,000 - 99,999</option>
-                      <option>100,000 or more</option>
+                    <select name="visitors" required="">
+                      <option value="">Select amount...</option>
+                      <option value="less1">less than 1,000</option>
+                      <option value="1plus">1,000 - 19,999</option>
+                      <option value="20plus">20,000 - 49,999</option>
+                      <option value="50plus">50,000 - 99,999</option>
+                      <option value="100plus">100,000 or more</option>
                     </select>
                   </div>
                 </div>
@@ -457,7 +457,7 @@
             <div class="field-body">
               <div class="field">
                 <div class="control">
-                  <textarea class="textarea" placeholder="What does your business sell/do?"></textarea>
+                  <textarea class="textarea" placeholder="What does your business sell/do?" name="business"></textarea>
                 </div>
               </div>
             </div>
@@ -465,7 +465,7 @@
           
           <div class="field is-grouped is-grouped-right">
             <div class="control">
-              <button class="button is-link merchant-signup-btn">Submit Merchant Request</button>
+              <button class="button is-link signup-merchant-btn">Submit Merchant Request</button>
             </div>
           </div>
         </form>
@@ -514,12 +514,12 @@
 
     
 
-    
-<script src="https://still-retreat-22100.herokuapp.com/js/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 
-<script src="https://still-retreat-22100.herokuapp.com/js/modernizr.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
 
-<script src="https://still-retreat-22100.herokuapp.com/js/fresh-7ce2cfbf.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/parsley.js/2.8.1/parsley.min.js"></script>
+<script src="https://still-retreat-22100.herokuapp.com/js/fresh-54a35a08.js"></script>
 
 
   </body>
