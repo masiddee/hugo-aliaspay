@@ -85,7 +85,7 @@ params:
     image: illustrations/aliaspay-checkout.svg
     tagline: Secure your Store
     subTagline: Plug in to WooCommerce's most secure checkout option, and give your customers peace of mind. Its FREE for merchants, and adds an extra layer of security for your shop.
-    buttonText: Request Early Access
+    buttonText: Merchants Early Access
   usersModal:
     title: Sign up for Beta
     tagline1: Alias Pay is currently running a private beta release of our secure mobile wallet app, and we'd love your feedback!
