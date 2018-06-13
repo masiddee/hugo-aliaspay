@@ -17,8 +17,18 @@
       <pubDate>Mon, 11 Jun 2018 13:16:35 -0400</pubDate>
       
       <guid>https://www.aliaspay.io/password-reset/</guid>
-      <description>Please enter a new secure password in the fields below.
+      <description> Please enter a new secure password in the fields below.
 New Password:   Confirm Password:   Submit    </description>
+    </item>
+    
+    <item>
+      <title>Verify Your Account</title>
+      <link>https://www.aliaspay.io/account-verification/</link>
+      <pubDate>Mon, 11 Jun 2018 13:16:35 -0400</pubDate>
+      
+      <guid>https://www.aliaspay.io/account-verification/</guid>
+      <description>  Please verify your account by clicking the button below:
+Click to Verify Account    </description>
     </item>
     
   </channel>

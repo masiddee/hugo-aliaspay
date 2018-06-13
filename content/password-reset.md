@@ -6,6 +6,8 @@ type: administrative
 noindex: true
 ---
 
+<div id="loader-cont"></div>
+
 <form id="password-reset" data-parsley-validate>
   <p class="mb-40">Please enter a new secure password in the fields below.</p>
 
